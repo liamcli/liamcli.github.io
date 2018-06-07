@@ -1,1 +1,49 @@
-theme: jekyll-theme-slate
+# Built with Jekyll 3.2.0
+
+# Setup
+title:               Liam Li    
+tagline:             'machine learning researcher'
+description:         'Personal website of Liam Li with updates on research and other posts.'
+url:                 'localhost:4000'
+baseurl:             '/liamcli'
+
+# About/contact
+author:
+  name:              Liam Li
+  url:               liamcli.com 
+  email:             me@liamcli.com 
+
+# Permalinks
+
+permalink: pretty
+permalink: /:title/
+
+# Set encoding to UTF-8
+encoding: utf-8
+
+# Collections for texts
+collections:
+  texts:
+    output: true
+
+# Markdown specs
+markdown: kramdown
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  footnote_backlink: "&#x21a9;&#xfe0e;"
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Exclusions from the final site
+exclude:
+  - optional
+  - vendor
+
+# Theme
+theme: "minima"
+
+
