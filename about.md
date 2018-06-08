@@ -1,11 +1,13 @@
 ---
-layout: page
 title: About
+layout: page
+permalink: /about/
 ---
 
-<p align="center">
+<!--- <p align="center">
 <img src="{{ site.baseurl }}/assets/profile_img.jpg">
 </p>
+-->
 After working in consulting and finance for a few years after college, I decided to come back to school and pursue a PhD!  It's been a great ride so far and I hope to learn even more in the coming years!
 
 Some interesting facts about me:

@@ -1,2 +1,4 @@
 .DS_Store
-.sa*
+_site
+.sass-cache
+.jekyll-metadata
