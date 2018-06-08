@@ -5,8 +5,7 @@ cover: true
 permalink: /
 ---
 
-{% markdown %}
+{% capture my_include %}
+{% include_relative profile.md %}{% endcapture %}
+{{ my_include | markdownify }}
 
-{% include_relative profile.md %}
-
-{% endmarkdown %}
