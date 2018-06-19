@@ -10,11 +10,12 @@ I am a PhD student in the Machine Learning department at [Carnegie Mellon Univer
 
 ## Publications
 * _Hyperband: Bandit-Based Configuration Evaluation for Hyperparameter Optimization_.  L. Li, K. Jamieson, G. DeSalvo, A. Rostamizadeh, A. Talwalkar.  ICLR, 2017.  [[PDF](https://openreview.net/pdf?id=ry18Ww5ee)]
-* _Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization_.  L. Li, K. Jamieson, G. DeSalvo, A. Rostamizadeh, A. Talwalkar.    To appear in JMLR.  [[PDF](https://arxiv.org/pdf/1603.06560.pdf), [Blog1](http://www.argmin.net/2016/06/23/hyperband/), [Blog2](http://people.eecs.berkeley.edu/~kjamieson/hyperband.html)]
+* _Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization_.  L. Li, K. Jamieson, G. DeSalvo, A. Rostamizadeh, A. Talwalkar.    Journal of Machine Learning Research 18 (2018) 1-52.  [[PDF](http://www.jmlr.org/papers/volume18/16-558/16-558.pdf), [Blog1](http://www.argmin.net/2016/06/23/hyperband/), [Blog2](http://people.eecs.berkeley.edu/~kjamieson/hyperband.html)]
 * _Massively Parallel Hyperparameter Tuning_.  L. Li, K. Jamieson, A. Rostamizadeh, K. Gonina, M. Hardt, B. Recht, A. Talwalkar.    In submission.  
 * _Pipeline-Aware Hyperparameter Optimization_.  L. Li, E. Sparks, R. Zhang, K. Jamieson, A. Talwalkar.  In submission.
 
 ## Recent Updates
+* June 2018: [Hyperband](http://www.jmlr.org/papers/volume18/16-558/16-558.pdf) published in JMLR
 * February 2018: Poster at [SysML](http://sysml.cc)
 * January 2018: Transferred to CMU
 * October 2017: Poster at [SCMLS](https://sites.google.com/view/socalml17/home)
