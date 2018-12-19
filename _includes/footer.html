@@ -1,12 +1,11 @@
 <footer>
-    <div class="footer-wrapper">
-        <div class="ui secondary menu inverted">
-            <p class="item">Liam Li &copy; 2018</p>
-            <div class="right menu">
-            </div>
-        </div>
-    </div>
+
+  <div class="wrapper">
+    &copy; Copyright {{ site.time | date: '%Y' }} {{ site.name }}.
+    {{ site.footer_text }}
+    {% if site.last_updated %}
+        Last updated: {{ site.last_updated }}.
+    {% endif %}
+  </div>
+
 </footer>
-<script type="text/javascript" src="/assets/js/main.js"></script>
-<script type="text/javascript" src="/assets/js/vendor/jquery.min.js"></script>
-<script type="text/javascript" src="/assets/js/vendor/semantic.min.js"></script>
