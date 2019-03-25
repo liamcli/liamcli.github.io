@@ -29,12 +29,16 @@ abstract={Performance of machine learning algorithms depends critically on ident
 }
 
 @inproceedings{hypeline,
-    title={Reuse in Pipeline-Aware Hyperparameter Tuning},
+    title={Exploiting Reuse in Pipeline-Aware Hyperparameter Tuning},
     author={Li, L. and Sparks, E. and Jamieson, K. and Talwalkar, A.},
     booktitle={Workshop on Systems for ML at NeurIPS},
     year={2018},
+    arxiv={1903.05176},
     html={http://learningsys.org/nips18/assets/papers/42CameraReadySubmissionhypeline.pdf},
-    abstract={Hyperparameter tuning of multi-stage pipelines introduces a significant computational burden. Motivated by the observation that work can be reused across pipelines if the intermediate computations are the same, we propose a pipelineaware approach to hyperparameter tuning. Our approach optimizes both the design and execution of pipelines to maximize reuse. We design pipelines amenable for reuse by (i) introducing a novel hybrid hyperparameter tuning method called gridded random search, and (ii) reducing the average training time in pipelines by adapting an early-stopping hyperparameter tuning approach. We then realize the potential for reuse during execution by introducing a novel caching problem for ML workloads which we pose as a mixed integer linear program (ILP), and subsequently evaluating various caching heuristics relative to the optimal ILP solution. We conduct experiments on simulated and real-world machine learning pipelines to show that a pipeline-aware approach to hyperparameter tuning can offer over an order-of-magnitude speedup over independently evaluating pipeline configurations.}
+    pdf={hypeline_arxiv.pdf},
+    abstract={Hyperparameter tuning of multi-stage pipelines introduces a significant computational burden. Motivated by the observation that work can be reused across pipelines if the intermediate computations are the same, we propose a pipeline-aware approach to hyperparameter tuning. Our approach optimizes both the design and execution of pipelines to maximize reuse. We design pipelines amenable for reuse by (i) introducing a novel hybrid hyperparameter tuning method called
+        gridded random search, and (ii) reducing the average training time in pipelines by adapting early-stopping hyperparameter tuning approaches. We then realize the potential for reuse during execution by introducing a novel caching problem for ML workloads which we pose as a mixed integer linear program (ILP), and subsequently evaluating various caching heuristics relative to the optimal solution of the ILP. We conduct experiments on simulated and real-world machine learning pipelines to
+            show that a pipeline-aware approach to hyperparameter tuning can offer over an order-of-magnitude speedup over independently evaluating pipeline configurations.}
 }
 
 @inproceedings{asha,
