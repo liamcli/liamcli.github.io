@@ -73,6 +73,7 @@ fi
 # Checkout DEPLOY_BRANCH branch
 if [ `git branch | grep $DEPLOY_BRANCH` ]
 then
+  echo "Deleting $DEPLOY_BRANCH"
   git branch -D $DEPLOY_BRANCH
 fi
 git checkout -b $DEPLOY_BRANCH
