@@ -4,6 +4,9 @@
 
 # Parse cmd arguments
 
+##########################
+###RUN FROM ROOT FOLDER###
+
 SRC_BRANCH="staging"
 DEPLOY_BRANCH="master"
 
