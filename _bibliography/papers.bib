@@ -50,7 +50,25 @@ abstract={Performance of machine learning algorithms depends critically on ident
     arxiv={1810.05934},
     pdf={asha_arxiv.pdf},
     blog={https://blog.ml.cmu.edu/2018/12/12/massively-parallel-hyperparameter-optimization/},
-    abstract={Modern learning models are characterized by large hyperparameter spaces and long training times. These properties, coupled with the rise of parallel computing and the growing demand to productionize machine learning workloads, motivate the need to develop mature hyperparameter optimization functionality in distributed computing settings. We address this challenge by first introducing a simple and robust hyperparameter optimization algorithm called ASHA, which exploits parallelism and aggressive early-stopping to tackle large-scale hyperparameter optimization problems. Our extensive empirical results show that ASHA outperforms existing state-of-the-art hyperparameter optimization methods; scales linearly with the number of workers in distributed settings; and is suitable for massive parallelism, converging to a high quality configuration in half the time taken by Vizier (Google’s internal hyperparameter optimization service) in an experiment with 500 workers. We then describe several design decisions we encountered, along with our associated solutions, when integrating ASHA in SystemX, an end-to-end production-quality machine learning system that offers hyperparameter tuning as a service.
+    abstract={Modern learning models are characterized by large hyperparameter
+        spaces and long training times. These properties, coupled with the rise
+            of parallel computing and the growing demand to productionize
+            machine learning workloads, motivate the need to develop mature
+            hyperparameter optimization functionality in distributed computing
+            settings. We address this challenge by first introducing a simple
+            and robust hyperparameter optimization algorithm called ASHA, which
+            exploits parallelism and aggressive early-stopping to tackle
+            large-scale hyperparameter optimization problems. Our extensive
+            empirical results show that ASHA outperforms existing
+            state-of-the-art hyperparameter optimization methods; scales
+            linearly with the number of workers in distributed settings; and is
+            suitable for massive parallelism, converging to a high quality
+            configuration in half the time taken by Vizier (Google’s internal
+                    hyperparameter optimization service) in an experiment with
+            500 workers. We then describe several design decisions we
+            encountered, along with our associated solutions, when integrating
+            ASHA in SystemX, an end-to-end production-quality machine learning
+            system that offers hyperparameter tuning as a service.}
 }
 
 @inproceedings{randNAS,
