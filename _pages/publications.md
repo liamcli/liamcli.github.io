@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-years: [2019, 2018, 2017]
+years: [2020, 2019, 2018, 2017]
 ---
 
 {% for y in page.years %}
