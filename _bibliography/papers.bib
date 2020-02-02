@@ -2,7 +2,23 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@inproceedings{ws,
+    title={Weight-sharing beyond neural architecture search: efficient feature map selection and federated hyperparameter tuning},
+    author={Khodak, M. and Li, L. and Balcan, M.F. and Talwalkar, A.},
+    booktitle={On-device Intelligence Workshop at MLSys},
+    year={2020},
+    pdf={weight_sharing.pdf},
+    abstract={Hyperparameter optimization is a critical component of the machine learning pipeline. Although there has been
+much progress in this area, many methods for tuning model settings and learning algorithms are difficult to deploy
+in more restrictive settings such as federated learning. Recent progress in NAS has yielded a heuristic technique–
+weight-sharing, or the simultaneous optimization of multiple neural networks using the same parameters–that
+presents a promising new paradigm for hyperparameter optimization. In this paper we identify weight-sharing as a
+cheap, practical approach for more traditional hyperparameter optimization problems. We validate our claim with
+experiments on feature map selection problems where an approach combining weight-sharing with successive
+halving is able to find a good configuration much faster than full training. Finally, we propose a natural way of
+using weight-sharing to perform hyperparameter optimization for federated learning that enables learning a tuned
+model using data on all devices without significantly impacting on-device computation.}
+}
 
 @article{hyperbandjournal,
   author  = {Li, L. and Jamieson, K. and DeSalvo, G. and Rostamizadeh, A. and Talwalkar, A.},
