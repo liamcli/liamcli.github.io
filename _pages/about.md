@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Liam</strong> Li 
-description: Building tools to increase ML developer productivity at [Determined AI](https://determined.ai/).
+description: Building tools to increase ML developer productivity at <a href="https://determined.ai">Determined AI</a>.
 
 profile:
   align: right
