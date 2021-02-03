@@ -2,25 +2,17 @@
 layout: about
 permalink: /
 title: <strong>Liam</strong> Li 
-description: Research is what I'm doing when I don't know what I'm doing.  &mdash;Wernher von Braun
+description: Building tools to increase ML developer productivity at [Determined AI](https://determined.ai/).
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>Office: GHC 8133</p>
 
 news: true
 social: true
 ---
 
-I am a PhD student in the Machine Learning department at Carnegie Mellon University, where I work with Ameet Talwalkar. My current research focuses on automating machine learning model selection; the goal is to develop tools and algorithms that will make the practice of machine learning easier and more accessible.
+I recently completed my PhD in Machine Learning from Carnegie Mellon University, where I was advised by [Ameet Talwalkar](https://www.cs.cmu.edu/~atalwalk/). [My thesis](https://www.ml.cmu.edu/research/phd-dissertation-pdfs/thesis_li_liam.pdf) was on efficient methods for automating machine learning model to make the practice of machine learning easier and more accessible.
 
-#### Research Interests
-* automated machine learning
-* hyperparameter optimization
-* active learning
-* bandits
-* gaussian processes
-* deep learning
-
+Since then, I've joined [Determined AI](https://determined.ai) as a machine learning engineer to build the leading platform for deep learning, enabling users to be vastly more productive and happier!
+Post PhD, I continue to be involved in the AutoML community and am working with folks to organize the [2nd ICLR workshop on Neural Architecture Search](https://sites.google.com/view/nas2021).  I also like to stay on top of  exciting discoveries in machine learning and diving into areas of ML that I didn't get to learn more about during my PhD.  
